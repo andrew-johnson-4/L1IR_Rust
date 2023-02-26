@@ -1,0 +1,13 @@
+[package]
+name = "l1ir-rust"
+version = "0.0.1"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT"
+description = "L1 Intermediate Representation to Rust compiler"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/L1IR_Rust"
+keywords = ["compiler","minifier","AST","IR","AOT"]
+
+[dependencies]
+l1_ir = { version = "0.0.50" }
